@@ -22,6 +22,7 @@ Features
 * Declarative handler configuration via annotations  
 
 JAR is compatible with Java 8 but needs Java 11+ for building the module-info.
+To use IOUring Java 9+ & linux kernal that supports io_uring
 
 ### Maven 
 

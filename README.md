@@ -31,7 +31,7 @@ Include the following to your dependency list:
     <dependency>
      <groupId>codes.oss.socketio</groupId>
      <artifactId>netty-socketio</artifactId>
-     <version>2.0.13</version>
+     <version>2.0.14</version>
     </dependency>
 ```
 
@@ -58,6 +58,11 @@ ARSnova: [arsnova.eu](https://arsnova.eu)
 Recent Releases
 ================================
 #### Please Note: trunk is current development branch.
+
+#### 11-Apr-2025 - version 2.0.14 released
+Feature - Linux native io_uring support
+Feature - Netty 4.2.0.Final
+Feature - Hazelcast 5.5.0 support
 
 #### 19-Mar-2025 - version 2.0.13 released
 

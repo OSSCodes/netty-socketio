@@ -1,13 +1,13 @@
 module netty.socketio {
-  exports com.zizzle.socketio;
-  exports com.zizzle.socketio.ack;
-  exports com.zizzle.socketio.annotation;
-  exports com.zizzle.socketio.handler;
-  exports com.zizzle.socketio.listener;
-  exports com.zizzle.socketio.namespace;
-  exports com.zizzle.socketio.misc;
-  exports com.zizzle.socketio.messages;
-  exports com.zizzle.socketio.protocol;
+  exports codes.oss.socketio;
+  exports codes.oss.socketio.ack;
+  exports codes.oss.socketio.annotation;
+  exports codes.oss.socketio.handler;
+  exports codes.oss.socketio.listener;
+  exports codes.oss.socketio.namespace;
+  exports codes.oss.socketio.misc;
+  exports codes.oss.socketio.messages;
+  exports codes.oss.socketio.protocol;
 
   requires static spring.beans;
   requires static spring.core;

@@ -22,13 +22,14 @@ Features
 * Declarative handler configuration via annotations  
 
 JAR is compatible with Java 8 but needs Java 11+ for building the module-info.
+To use IOUring Java 9+ & linux kernal that supports io_uring
 
 ### Maven 
 
 Include the following to your dependency list:
 ```xml
     <dependency>
-     <groupId>com.corundumstudio.socketio</groupId>
+     <groupId>codes.oss.socketio</groupId>
      <artifactId>netty-socketio</artifactId>
      <version>2.0.13</version>
     </dependency>
